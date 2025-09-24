@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style/output.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>DevFoxie | News homepage</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="py-8 px-4 flex justify-center xl:flex xl:justify-center">
+      <!-- container -->
+      <div
+        class="flex items-center w-9/10 justify-between xl:flex xl:w-8/10 xl:items-center xl:justify-between"
+      >
+        <img src="./assets/images/logo.svg" alt="Logo W." />
+
+        <!-- Bouton menu  -->
+        <nav class="sm:hidden">
+          <svg width="40" height="17" xmlns="http://www.w3.org/2000/svg">
+            <g fill="#00001A" fill-rule="evenodd">
+              <path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z" />
+              <path d="M0 0h40v3H0z" />
+            </g>
+          </svg>
+        </nav>
+        <!-- Bouton menu  -->
+
+        <nav class="hidden sm:flex flex gap-9">
+          <a href="">Home</a>
+          <a href=""> New </a> <a href="">Popular</a> <a href="">Trending</a>
+          <a href="">Categories</a>
+        </nav>
+      </div>
+      <!-- container -->
+    </header>
+
+    <main class="flex justify-center">
+      <!-- container -->
+      <div class="w-9/10 xl:w-8/10 ">
+        <div class="xl:flex xl:gap-7 xl:mb-10">
+          <div class="xl:flex xl:flex-col xl:gap-10">
+            <img
+              class="hidden md:block"
+              src="./assets/images/image-web-3-desktop.jpg"
+              alt="Image de formes géométrique colorées"
+            />
+            <img
+              class="block md:hidden"
+              src="./assets/images/image-web-3-mobile.jpg"
+              alt="Image de formes géométrique colorées"
+            />
+            <div
+              class="flex flex-col justify-center py-8 sm:flex-row sm:gap-4 xl:w-3xl xl:p-0 xl:items-center"
+            >
+              <h1 class="text-4xl xl:text-6xl font-[Manrope] font-bold">
+                The Bright Future of Web 3.0?
+              </h1>
+
+              <div class="xl:gap-9">
+                <p class="pb-8 xl:pb-15 sm:pb-8 xl:text font-[Manrope]">
+                  Solution of the web that claims to put the power of the
+                  platforms back into the hands of the people. But is it really
+                  fulfilling its promise?
+                </p>
+
+                <a class="bg-red-800 text-white py-3 px-8 font-[Roboto]" href="">READ MORE</a>
+              </div>
+            </div>
+          </div>
+
+          <aside class="bg-[#00001A] text-white xl:py-6 xl:px-4 px-4 py-6 font-[Manrope]">
+            <div class="flex flex-col gap-7">
+              <h2 class="text-5xl text-[#E9AB53]">New</h2>
+
+              <h3 class="text-2xl font-bold ">Hydrogen VS Electric Cars</h3>
+              <p class="text-[#C5C6CE]">Will hydrogen-fueled cars ever catch up to EVs?</p>
+
+              <hr class="border-t border-gray-300" />
+
+              <h3 class="text-2xl font-bold ">The Downsides of AI Artistry</h3>
+              <p class="text-[#C5C6CE]">
+                What are the possible adverse effects of on-demand AI image
+                generation?
+              </p>
+
+              <hr class="border-t border-gray-300" />
+
+              <h3 class="text-2xl font-bold">Is VC Funding Drying Up?</h3>
+              <p class="text-[#C5C6CE]">
+                Private funding by VC firms is down 50% YOY. We take a look at
+                what that means.
+              </p>
+            </div>
+          </aside>
+        </div>
+        <!-- container -->
+        <div class="xl:flex xl:items-center xl:justify-between">
+          <article class="flex gap-4 pt-14 xl:items-center xl:p-0">
+            <img
+              class="xl:size-32"
+              src="./assets/images/image-retro-pcs.jpg"
+              alt="Ordinateur vintage"
+            />
+            <div class="flex flex-col justify-center gap-3">
+              <h2 class="text-4xl text-[#C5C6CE] font-bold">01</h2>
+              <h3 class="text-[18px] font-bold font-[Manrope]">Reviving Retro PCs</h3>
+              <p class="font-[Manrope]">What happens when old PCs are given modern upgrades?</p>
+            </div>
+          </article>
+
+          <article class="flex gap-3 py-10 xl:items-center xl:p-0 xl:mx-24">
+            <img
+              class="xl:size-32"
+              src="./assets/images/image-top-laptops.jpg"
+              alt="Clavier"
+            />
+            <div class="flex flex-col justify-center gap-3  "> 
+              <h2 class="text-3xl text-[#C5C6CE] font-bold">02</h2>
+              <h3 class="text-[18px] font-bold font-[Manrope] ">Top 10 Laptops of 2022</h3>
+              <p class="font-[Manrope]">Our best picks for various needs and budgets.</p>
+            </div>
+          </article>
+
+          <article class="flex gap-4 xl:items-center">
+            <img
+              class="xl:size-32"
+              src="./assets/images/image-gaming-growth.jpg"
+              alt=""
+            />
+            <div class="flex flex-col justify-center gap-3">
+              <h2 class="text-3xl text-[#C5C6CE] font-bold">03</h2>
+              <h3 class="text-[18px] font-bold font-[Manrope]">The Growth of Gaming</h3>
+              <p class="font-[Manrope]">How the pandemic has sparked fresh opportunities.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.dev-foxie.com" target="_blank">DevFoxie</a>. Coded by
+      <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
